@@ -1,0 +1,9 @@
+public class Thread4_ReplaceA_Substring {
+    public static void main(String[] args) {
+        String str =
+                "Berapa banyak kalimat dalam satu paragraf? Tidak ada ketentuan khusus dalam hal ini. Akan tetapi, dalam penulisan karya ilmiah, biasanya disarankan tiga sampai lima kalimat, atau minimal tiga baris. Apakah ketentuan tersebut sudah paten? Dalam KBBI, paragraf adalah bagian bab dalam suatu karangan (biasanya mengandung satu ide pokok dan penulisannya dimulai dengan garis baru). Hal ini mengisyaratkan bahwa paragraf paling tidak mengandung dua kalimat: satu kalimat pokok dan satu kalimat penjelas. Akan tetapi, berbeda dengan penjelasan Windy Ariestanty yang disampaikan kepada Ivan Lanin. Menurutnya, paragraf bisa saja hanya terdiri atas satu kalimat. Uraian bausastra Merriam-Webster tentang paragraf tampaknya berpihak pada Windy, “a subdivision of a written composition that consists of one or more sentences, deals with one point or gives the words of one speaker, and begins on a new usually indented line.”Satu paragraf terdiri atas minimum satu kalimat dan maksimum tidak terbatas. Penggunaan satu paragraf satu kalimat biasa digunakan dalam penulisan jurnalistik atau di media massa, baik cetak maupun online. Sementara untuk paragraf yang tidak terbatas cenderung ditemukan dalam penulisan karya ilmiah. Inti pokoknya bukan pada teknis berapa banyak jumlah kalimat, melainkan apakah ide pokok dalam tersampaikan dalam satu kalimat? Jika tidak, maka perlu ditambahkan kalimat selanjutnya sebagai penjelas. Penambahan ini kalimat penjelas ini disesuaikan dengan kebutuhan penulis. Akan tetapi, sebaiknya tidak terlalu panjang. Paragraf yang panjang cenderung membuat pembaca lelah dan bosan.";
+        System.out.println(str.replaceAll("ba", "wa"));
+        System.out.println(str.replaceAll("pa", "ka"));
+        System.out.println(str.replaceAll("ka", "ja"));
+    }
+}

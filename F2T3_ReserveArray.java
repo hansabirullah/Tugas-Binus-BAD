@@ -1,0 +1,62 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class F2T3_ReserveArray {
+    public static void main(String[] args) {
+        ArrayList arrayList = new ArrayList();
+        arrayList.add("inti");
+        arrayList.add("pokoknya");
+        arrayList.add("bukan");
+        arrayList.add("pada");
+        arrayList.add("teknis");
+        arrayList.add("berapa");
+        arrayList.add("banyak");
+        arrayList.add("jumlah");
+        arrayList.add("kalimat");
+        arrayList.add("melainkan");
+        arrayList.add("apakah");
+        arrayList.add("ide");
+        arrayList.add("pokok");
+        arrayList.add("dalam");
+        arrayList.add("tersampaikan");
+        arrayList.add("dalam");
+        arrayList.add("satu");
+        arrayList.add("kalimat");
+        arrayList.add("jika");
+        arrayList.add("tidak");
+        arrayList.add("maka");
+        arrayList.add("perlu");
+        arrayList.add("ditambahkan");
+        arrayList.add("kalimat");
+        arrayList.add("selanjutnya");
+        arrayList.add("sebagai");
+        arrayList.add("penjelasan");
+        arrayList.add("penambahan");
+        arrayList.add("ini");
+        arrayList.add("kalimat");
+        arrayList.add("penjelas");
+        arrayList.add("ini");
+        arrayList.add("disesuaikan");
+        arrayList.add("dengan");
+        arrayList.add("kebutuhan");
+        arrayList.add("penulis");
+        arrayList.add("akan");
+        arrayList.add("tetapi");
+        arrayList.add("sebaiknya");
+        arrayList.add("tidak");
+        arrayList.add("terlalu");
+        arrayList.add("panjang");
+        arrayList.add("paragraft");
+        arrayList.add("yang");
+        arrayList.add("panjang");
+        arrayList.add("cenderung");
+        arrayList.add("membuat");
+        arrayList.add("pembaca");
+        arrayList.add("lelah");
+        arrayList.add("dan");
+        arrayList.add("bosan");
+        System.out.println("Before reverse: "+arrayList);
+        Collections.reverse(arrayList);
+        System.out.println("after reverse: "+arrayList );
+    }
+}
